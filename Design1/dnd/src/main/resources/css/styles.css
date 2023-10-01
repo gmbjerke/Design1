@@ -1,0 +1,41 @@
+/* Apply styles to the entire character sheet container */
+.anchor-pane {
+    -fx-padding: 1in; /* 1 inch margin around the page */
+}
+
+/* Position player name and character name */
+#playerNameField {
+    -fx-alignment: top-left;
+}
+
+#characterNameField {
+    -fx-alignment: top-right;
+}
+
+/* Create a grid for race, class, and background */
+.grid-pane {
+    -fx-padding: 0.5in; /* 0.5 inch gap between modules */
+    -fx-vgap: 0.5in; /* Vertical gap */
+}
+
+/* Numeric stat blocks on the left side */
+.text-field {
+    -fx-alignment: center-left;
+    -fx-font-size: 14pt; /* Adjust font size */
+}
+
+/* Medium-sized text blocks for inventory and notes on the right side */
+.text-area {
+    -fx-alignment: center-right;
+    -fx-font-size: 12pt; /* Adjust font size */
+}
+
+/* Numeric blocks for HP and Temporary HP */
+#hpField, #tempHpField {
+    -fx-font-size: 14pt; /* Adjust font size */
+}
+
+/* Medium-sized text blocks for Attacks and Spells */
+#attacksArea, #spellsArea {
+    -fx-font-size: 12pt; /* Adjust font size */
+}
